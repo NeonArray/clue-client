@@ -1,6 +1,6 @@
 # "Clue" Client
 
-The "Clue" client is a WordPress plugin that facilitates logging of basically every action that occurs within WordPress, and then sends that data to the sister node server to be stashed away in a database. This plugin was heavily based on the work of [Pär Thernström's WordPress Simple History](https://github.com/bonny/WordPress-Simple-History), but was refactored and re-architected enormously. Much of the original code has been stripped or re-written but I believe Pär should retain most of the credit.
+The "Clue" client is a WordPress plugin that facilitates logging of basically every action that occurs within WordPress, and then sends that data to the [sister node server](https://github.com/ocularrhythm/clue-server) to be stashed away in a database. This plugin was heavily based on the work of [Pär Thernström's WordPress Simple History](https://github.com/bonny/WordPress-Simple-History), but was refactored and re-architected enormously. Much of the original code has been stripped or re-written but I believe Pär should retain most of the credit.
 
 I deprecated this plugin in favor of simply just using Sentry.io along with a utility plugin I wrote that acts as a wrapper for their PHP library and logs every error to the service. It's not as robust as this plugin out of the box, so I may ultimately repurpose this plugin to use alongside Sentry when I can find the time.
 
